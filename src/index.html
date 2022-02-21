@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biller Landing Page</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="hidden xl:block xl:absolute xl:-inset-20 xl:top-0 xl:bottom-0 xl:bg-[url(./images/bg.png)] xl:bg-cover xl:bg-no-repeat"></div>
+    <header class="absolute w-full py-6 z-20">
+        <div class="container flex justify-between items-center">
+            <a href="/" class="text-[#EB6023] text-2xl font-bold">Logo</a>
+            
+            <button class="cursor-pointer xl:hidden"><img src="./images/menu.png" alt="menu"></button>
+
+            <nav class="hidden font-semibold xl:flex items-center justify-between w-9/12">
+                <ul class="flex gap-6">
+                    <li><a class="flex items-center gap-2" href="">Personal <img src="./images/arrow.png" alt="arrow"></a></li>
+                    <li><a class="flex items-center gap-2" href="">Business <img src="./images/arrow.png" alt="arrow"></a></li>
+                </ul>
+
+                <ul class="text-white flex gap-8 items-center">
+                    <li><a class="flex items-center gap-2" href=""><img src="./images/settings.png" alt="arrow"> Integrate</a></li>
+                    <li><a class="flex items-center gap-2" href="">About Us</a></li>
+                    <li class="px-4 py-2 border border-white rounded-md"><a class="flex items-center gap-2" href=""><img src="./images/lock.png" alt="arrow"> Log in</a></li>
+                    <li class="px-4 py-2 border border-white rounded-md -ml-4"><a class="flex items-center gap-2" href=""><img src="./images/plus.png" alt="arrow"> Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="min-h-screen container flex flex-col xl:flex-row xl:items-center">
+        <section class="pt-40 py-20 flex justify-center xl:justify-start xl:flex-1">
+                <div class="flex flex-col items-center justify-center text-center gap-y-4 max-w-lg xl:text-left xl:items-start xl:gap-y-6">
+                    <h1 class="text-[#525256] font-black text-[2rem] leading-tight xl:text-4xl">Because payments<br />should be <span class="text-[#1CA78B] underline">easy|</span></h1>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit sed do eiusmod</p>
+            
+                    <div class="mt-8 relative before:absolute before:block before:left-0 before:top-0 before:h-full before:w-1 before:bg-[#1CA78B] after:absolute after:right-4 after:top-1/2 after:-translate-y-1/2 after:content-[url(./images/search.png)] after:cursor-pointer w-full xl:w-[50vw] max-w-[590px] 2xl:max-w-[780px] z-20">
+            
+                        <input
+                            type="text" 
+                            placeholder="Type the biller you want to ..."
+                            class="outline-none px-6 py-4 shadow-[0_1px_0_rgba(0,0,0,.1)] w-full xl:px-8 xl:py-6"
+                        >
+                    </div>
+        
+                    <div class="mt-12 flex flex-col gap-4 max-w-md xl:gap-y-6">
+                        <p class="xl:text-lg xl:ml-4">Quicklinks</p>
+        
+                        <div id="listDiv" class="font-['Open_Sans'] text-sm flex flex-wrap gap-2 justify-center xl:justify-start xl:text-base">
+                            <p class="text-[#F16521] border-2 border-[#F16521] rounded-md p-2">Buy JAMB FORM</p>
+                            <p class="text-[#F16521] border-2 border-[#F16521] rounded-md p-2">Buy Airtime</p>
+                            <p class="text-[#F16521] border-2 border-[#F16521] rounded-md p-2">Buy Electricity</p>
+                            <p class="text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Setup Standing Order</p>
+                            <p class="text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Pay FGN and State TSA</p>
+                            <p class="opacity-50 text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Pay an Invoice</p>
+                            <p class="opacity-50 text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Re-Send A Receipt/Invoice</p>
+                            <p class="opacity-30 text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Upload NHF Schedule</p>
+                            <p class="opacity-30 text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Pay Family, Friends, Others</p>
+                            <p class="opacity-20 text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Pay Salaries</p>
+                            <p class="opacity-20 text-[#3B3B3B] border-2 border-[#BECAD6] rounded-md p-2">Pay Taxes</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    
+        <section class="mt-auto py-20 relative before:absolute before:h-full before:w-screen before:left-1/2 before:-translate-y-1/2 before:top-1/2 before:-translate-x-1/2 before:bg-gradient-to-bl before:from-[#F16521] before:to-[#D95129] before:-z-10 flex flex-col items-center xl:flex-1 xl:mt-0 xl:min-h-screen xl:justify-center xl:before:w-[50vw] xl:before:left-0 xl:before:-translate-x-0 xl:pt-40">
+            
+            <div class="flex flex-col items-center xl:justify-center">
+                <div class="text-white bg-[#ED6E2D] px-14 py-24 rounded-md max-w-xs flex items-center gap-10">
+                    <img src="./images/receive.png" alt="">
+                    <p class="relative after:absolute after:top-1/2 after:-translate-y-1/2 after:-left-5 after:block after:w-px after:h-[140%] after:bg-white">View all your Balances, On One Screen</p>
+                </div>
+                <div class="text-[#ED6E2D] bg-white px-8 py-24 rounded-md max-w-[340px] flex items-center gap-10 -my-2 z-10">
+                    <img src="./images/balance.png" alt="">
+                    <div class="grid gap-4 relative after:absolute after:top-1/2 after:-translate-y-1/2 after:-left-5 after:block after:w-px after:h-[140%] after:bg-[#ED6E2D]">
+                        <p>View all your Balances, On One Screen</p>
+                        <a href="" class="text-sm text-[#1CA78B] justify-self-start relative after:absolute after:w-full after:h-px after:bg-[#1CA78B] after:-bottom-2 after:left-0">View more →</a>
+                    </div>
+                </div>
+                <div class="text-white bg-[#ED6E2D] px-14 py-24 rounded-md max-w-xs flex items-center gap-10">
+                    <img src="./images/calc.png" alt="">
+                    <p class="relative after:absolute after:top-1/2 after:-translate-y-1/2 after:-left-5 after:block after:w-px after:h-[140%] after:bg-white">View all your Balances, On One Screen</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</body>
+</html>
